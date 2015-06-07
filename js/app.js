@@ -63,7 +63,7 @@ app.controller('fbController',function($scope){
     } else {
       alert("User logged in through Facebook!");
     }
-    window.open('welcome');
+    location.href = "welcome";
   },
   error: function(user, error) {
     alert("User cancelled the Facebook login or did not fully authorize.");
