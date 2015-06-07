@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+body {
+	background-color: #FF5500;
+}
+.bar, .bar-header {
+  border: 0px !important;
+  border-bottom-color: transparent !important;
+  background-image: none;
+  border-bottom: none;
+}
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+  color: #0080FF;
+}
+.tabs-striped .tab-item.tab-item-active {
+  border-color: #0080FF !important;
+}
+.red {
+  color: red;
+}
+#tern-text {
+	margin-top: 20px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 60px;
+	z-index: 5;
+}
+#tern-white-img {
+	margin-left: auto; 
+	margin-right: auto;
+	z-index: 5;
+}
+#sub {
+	color: white;
+	font-size: 20px;
+	z-index: 4;
+	margin-top: 67px;
+}
