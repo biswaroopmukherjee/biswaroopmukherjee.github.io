@@ -19,3 +19,15 @@ h1 {
   white-space: nowrap;
   text-align: center;
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  font-size: 9rem;
+  white-space: nowrap;
+  text-align: center;
+}
