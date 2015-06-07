@@ -1,39 +1,21 @@
-a {
-  text-decoration: none;
-}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
 body {
-	background-color: #FF5500;
+	background: url('../img/bg.jpg') no-repeat bottom center fixed;
+ 	background-size: 100% auto;
 }
-.bar, .bar-header {
-  border: 0px !important;
-  border-bottom-color: transparent !important;
-  background-image: none;
-  border-bottom: none;
+html {
+    height: 100%
 }
-.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
-  color: #0080FF;
-}
-.tabs-striped .tab-item.tab-item-active {
-  border-color: #0080FF !important;
-}
-.red {
-  color: red;
-}
-#tern-text {
-	margin-top: 20px; 
-	margin-left: auto; 
-	margin-right: auto; 
-	margin-top: 60px;
-	z-index: 5;
-}
-#tern-white-img {
-	margin-left: auto; 
-	margin-right: auto;
-	z-index: 5;
-}
-#sub {
-	color: white;
-	font-size: 20px;
-	z-index: 4;
-	margin-top: 67px;
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 46%;
+  font-size: 12rem;
+  white-space: nowrap;
+  text-align: center;
 }
