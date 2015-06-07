@@ -41,33 +41,15 @@
   }(document, 'script', 'facebook-jssdk'));
     </script>
 
+
+
+
     <div class="col-md-4" ng-controller="fbController">
     <button ng-click="fblogin()">
     LOGIN WITH FACEBOOK YOU BUTTHEAD
     </button>
     </div>1
 
-    <div class="col-md-4" ng-controller="HomeController">
-      <h3>
-        Facebook login
-      </h3>
-
-
-      <form novalidate class="simple-form">
-        Name: <input type="text" ng-model="user.name" /><br />
-        E-mail: <input type="email" ng-model="user.email" /><br />
-        Password: <input type="text" ng-model="user.password" /><br />
-        Gender: <input type="radio" ng-model="user.gender" value="male" />male
-      <input type="radio" ng-model="user.gender" value="female" />female<br />
-      <input type="button" ng-click="reset()" value="Reset" />
-      <input type="submit" ng-click="update(user)" value="Save" />
-
-      </form>
-      <pre>form = {{user | json}}</pre>
-      <pre>master = {{master | json}}</pre>
-
-
-    </div>
 
 
 
