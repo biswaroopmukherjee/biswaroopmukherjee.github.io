@@ -10,7 +10,7 @@ a:hover {
 }
 body {
 	background: url('../img/bg.jpg') no-repeat bottom center fixed;
- 	background-size: 100% auto;
+ 	background-size: cover;
 }
 html {
     height: 100%
